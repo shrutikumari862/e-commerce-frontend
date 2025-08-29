@@ -13,7 +13,7 @@ export function Navbar() {
 
     return (
         <>
-            <div className='bg-black w-[100] h-[150px] flex justify-between items-center p-[10px] border-b-5 border-amber-300'>
+            <div className='bg-black w-full h-[150px] flex justify-between items-center p-[10px] border-b-5 border-amber-300'>
                 <div>
                     <img src={logo} className='h-[130px]'/>
                 </div>
