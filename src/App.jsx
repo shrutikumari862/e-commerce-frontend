@@ -1,18 +1,18 @@
 import { Routes,Route } from 'react-router-dom'
-import { Home } from './pages/Home'
+import { Home } from './pages/Home.jsx'
 import './App.css'
-import { Collection } from './pages/Collection'
-import { Cart } from './pages/cart'
-import { Login } from './pages/Login'
-import { Oders } from './pages/Oders'
-import { Placeorder } from './pages/Placeorder'
-import { Product } from './pages/Product'
-import { Navbar } from './components/Navbar'
-import { Signup } from './pages/signup'
-import { SellerLogin } from './pages/SellerLogin'
-import { Seller } from './pages/Seller'
-import { Selleraddproduct } from './pages/Selleraddproduct'
-import { Profile } from './pages/profile'
+import { Collection } from './pages/Collection.jsx'
+import { Cart } from './pages/Cart.jsx'
+import { Login } from './pages/Login.jsx'
+import { Oders } from './pages/Oders.jsx'
+import { Placeorder } from './pages/Placeorder.jsx'
+import { Product } from './pages/Product.jsx'
+import { Navbar } from './components/Navbar.jsx'
+import { Signup } from './pages/Signup.jsx'
+import { SellerLogin } from './pages/SellerLogin.jsx'
+import { Seller } from './pages/Seller.jsx'
+import { Selleraddproduct } from './pages/Selleraddproduct.jsx'
+import { Profile } from './pages/profile.jsx'
 
 function App() {
   
@@ -33,6 +33,7 @@ function App() {
         <Route path='/sellerlogin' element={<SellerLogin/>}/>
         <Route path='/seller' element={<Seller/>}/>
         <Route path='/profile' element={<Profile/>}/>
+        <Route path='/selleraddproduct' element={<Selleraddproduct/>}/>
         
        
 
